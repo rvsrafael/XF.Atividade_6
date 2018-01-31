@@ -53,7 +53,7 @@ namespace FiapAtividade6.Droid
             {
                 // Sign in with Facebook login using a server-managed flow.
                 user = await TodoItemManager.DefaultManager.CurrentClient.LoginAsync(this,
-                MobileServiceAuthenticationProvider.Facebook, "https://fiapatividade6.azurewebsites.net");
+                MobileServiceAuthenticationProvider.Facebook, "fiapatividade6");
                 if (user != null)
                 {
                     message = string.Format("you are now signed-in as {0}.",

@@ -8,7 +8,7 @@
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
-        <data android:scheme="https://fiapatividade6.azurewebsites.net" android:host="easyauth.callback" />
+        <data android:scheme="fiapatividade6" android:host="easyauth.callback" />
       </intent-filter>
     </activity>
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="FiapAtividade6.Droid" android:theme="@android:style/Theme.Holo.Light" android:name="md5c3199c61558781fc6c27f82f21039308.MainActivity">
