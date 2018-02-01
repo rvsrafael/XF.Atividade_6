@@ -56,7 +56,7 @@ namespace FiapAtividade6.Droid
                 MobileServiceAuthenticationProvider.Facebook, "fiapatividade6");
                 if (user != null)
                 {
-                    message = string.Format("Login efetuado com o UserID {0}.", user.UserId);
+                    message = string.Format("Login efetuado {0}.", user.UserId);
                     success = true;
                 }
             }
