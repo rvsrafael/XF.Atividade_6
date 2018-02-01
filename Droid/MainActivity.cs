@@ -56,8 +56,7 @@ namespace FiapAtividade6.Droid
                 MobileServiceAuthenticationProvider.Facebook, "fiapatividade6");
                 if (user != null)
                 {
-                    message = string.Format("you are now signed-in as {0}.",
-                        user.UserId);
+                    message = string.Format("Login efetuado com o UserID {0}.", user.UserId);
                     success = true;
                 }
             }
@@ -69,7 +68,7 @@ namespace FiapAtividade6.Droid
             // Display the success or failure message.
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.SetMessage(message);
-            builder.SetTitle("Sign-in result");
+            builder.SetTitle("Login com Facebook");
             builder.Create().Show();
 
             return success;

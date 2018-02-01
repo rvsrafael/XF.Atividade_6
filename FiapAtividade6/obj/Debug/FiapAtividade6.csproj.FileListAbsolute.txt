@@ -4,3 +4,4 @@
 /Users/rafa/Downloads/FiapAtividade6_Xamarin_Forms/FiapAtividade6/obj/Debug/FiapAtividade6.TodoList.xaml.g.cs
 /Users/rafa/Downloads/FiapAtividade6_Xamarin_Forms/FiapAtividade6/obj/Debug/FiapAtividade6.dll
 /Users/rafa/Downloads/FiapAtividade6_Xamarin_Forms/FiapAtividade6/obj/Debug/FiapAtividade6.pdb
+/Users/rafa/Downloads/FiapAtividade6_Xamarin_Forms/FiapAtividade6/obj/Debug/FiapAtividade6.csprojResolveAssemblyReference.cache
